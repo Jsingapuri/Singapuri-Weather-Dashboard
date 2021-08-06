@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+    <link rel="stylesheet" href="style.css"/>
+    <title>Weather Day Planner</title>
+</head>
+<body>
+    <div class="jumbotron jumbotron-fluid bg-info text-light">
+        <div class="container text-center">
+          <h1>
+            Weather Dashboard
+          </h1>
+        </div>
+      </div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class=" col-3">
+                <h2>Search for a City:</h2>
+                <form id="search-form" class="form w-100">
+                  <input id="search-input" class="form-input w-100" type="text" name="search-input" placeholder="Search!">
+                  <button class="btn btn-info btn-block">Search City</button>
+                </form>
+              
+              
+            </div>
+        
+
+    
+
+
+            <div class="col-9">
+                <div class="row">
+                        <div class="currentWeather"></div>
+                </div>
+                <div class="row">
+                   <div class="forecast card-group"></div>
+                </div>
+            </div>
+            
+            
+      </div>
+</body>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="script.js"></script>
+</html>

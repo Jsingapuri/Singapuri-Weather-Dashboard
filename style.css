@@ -1,0 +1,16 @@
+.description {
+    white-space: pre-wrap;
+    background-color: yellow;
+  }
+.noGood {
+    background-color: red;
+    color: black;
+  }
+.isGood {
+    background-color: blue;
+    color: white;
+  }
+  .main {
+      background-color: lightblue;
+      color: white;
+  }
